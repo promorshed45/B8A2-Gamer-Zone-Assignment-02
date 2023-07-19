@@ -48,6 +48,7 @@ p{
     line-height: 1.5rem;
 }
 
+
 /* nav container styles */
 .nav-container {
     /* width: 1366px; */
@@ -165,6 +166,7 @@ p{
 }
 .header-list i{
    margin-right: 10px;
+   color: #FF42A5;
 
 }
 .btn-secondary {
