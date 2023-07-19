@@ -98,16 +98,17 @@ p{
     border-radius: 8px;
     border: 0;
     font-size: 1rem;
-    text-align: center;
     transition: background-color 0.3s, color 0.3s;
     background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
 }
 
 .icon-1 {
     font-size: 24px;
     color: #FF0000;
     font-size: 1.5rem;
-    margin: 0px 5px;
+    margin: 0px 15px;
 
 }
 
@@ -202,8 +203,9 @@ p{
   .annversary-content{
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 20px;
     margin-right: 50px;
+    margin-top: 50px;
   }
   .anniv-title{
     color: #0B0223;
@@ -220,7 +222,6 @@ p{
   }
   .img-1{
     width: 100%;
-  max-width: 100%;
   height: auto; 
   margin-bottom: 10px;
   }
@@ -228,5 +229,109 @@ p{
     width: 40%;
   }
 
+  /* icon-grid-container */
+.icon-grid-container{
+    /* background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); */
+  }
+  .grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: wrap; */
+    /* grid-template-columns: repeat(5,1fr); */
+    gap: 5px;
+  }
+.icon-img{
+    padding: 5px;
+}
+.icon-grid{
+    color: #534C64; 
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+}
+.icon-grid:hover{
+    border: 2px solid #FF42A5;
+    border-radius: 50px;
+    padding: 3px 10px;
+}
+.icon-grid:hover p{
+    color: #FF42A5;
+}
+
+/* footer section styles */
+.footer{
+    background-color: #0B0223;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-container{
+    padding: 100px;
+    width: 80%;
+}
+.logo{
+    display: flex;
+    width: 100px;
+    color: white;
+}
+.nav-bar {
+    text-align: center;
+    margin: 50px;
+}
+.nav-bar > ul{
+    display: flex;
+}
+.nav-bar > ul li{
+    list-style: none;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-icon {
+    text-align: center;
+    width: 70%;
+    padding-bottom: 50px;
+}
+.footer-icon i{
+    font-size: 2rem;
+    color: white;
+}
+.footer-icon > ul{
+    display: flex;
+}
+.footer-icon > ul li{
+    list-style: none;
+}
+.footer-icon li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60); 
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+
+.nav-bar-bottom {
+    text-align: center;
+}
+.nav-bar-bottom > ul{
+    display: flex;
+}
+.nav-bar-bottom > ul li{
+    list-style: none;
+}
+.nav-bar-bottom li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60); 
+    font-size: .8rem;
+    font-weight: 400;
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.60); 
+    font-size: .8rem;
+}
 
   
