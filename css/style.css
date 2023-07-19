@@ -348,6 +348,25 @@ p{
     font-weight: 400;
 }
 
+.twiter-hover:hover{
+    color: #1DA1F2;
+}
+.facebook-hover:hover{
+    color: #1877F2;
+}
+.youtube-hover:hover{
+    color: #FF0000;
+}
+.linkedin-hover:hover{
+    color: #0A66C2;
+}
+.instagram-hover:hover{
+    color: #833AB4;
+}
+.apple-hover:hover{
+    color: #353B48;
+}
+
 
 .nav-bar-bottom {
     text-align: center;
@@ -369,4 +388,3 @@ p{
     font-size: .8rem;
 }
 
-  
