@@ -273,6 +273,10 @@ p{
     font-weight: 500;
     display: flex;
     margin: 10px 0px 30px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 3px 10px;
 }
 .icon-grid:hover{
     border: 2px solid #FF42A5;
