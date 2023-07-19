@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0 auto;
     padding: 0 auto;
     box-sizing: border-box;
@@ -33,13 +33,11 @@ body {
     border: 0;
     padding: 10px 20px;
 }
-
 .btn-primary:hover {
     color: #E55473;
     background: white;
     border: 1px solid #E55473;
 }
-
 .title {
     color: #0B0223;
     text-align: center;
@@ -118,7 +116,19 @@ p{
 }
 
 /* header container styles */
-
+.header{
+    display: flex;
+    position: relative;
+}
+.header-section{
+    background-image: url(../images/header-banner.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: relative;
+    left: 0;
+    right: 0;
+    
+}
 .header-container{
     display: flex;
     align-items: center;
@@ -139,7 +149,7 @@ p{
     margin: 0 auto;
 }
 .header-title {
-    font-size: 95px;
+    font-size: 6rem;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -171,6 +181,7 @@ p{
 /* card-container */
 .card-container{
     text-align: center;
+    margin: ;
     margin: 100px 0px;
 }
 .card-content h1, p{
@@ -181,20 +192,19 @@ p{
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     max-width: 80%;
-    margin: 0 auto;
-  }
+}
 
-  .card-item {
+.card-item {
     width: 90%; 
     max-width: 100%; 
     height: auto;
     display: block;
-  }
+}
 .card-box p{
     color: #534C64; 
     padding: 0px 20px;
     text-align: left;
-  }
+}
 
   /* anniversary container */
   .anniversary-container{
@@ -203,35 +213,35 @@ p{
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     text-align: right;
-  }
+}
   .annversary-content{
     display: flex;
     flex-direction: column;
     padding: 20px;
     margin-right: 50px;
     margin-top: 50px;
-  }
+}
   .anniv-title{
     color: #0B0223;
     text-align: right;
     font-size: 2.5rem;
-  }
+}
   .img-item-1{
     position: relative;
-  }
+}
   .img-item-2{
     top: -150px;
     left: -380px;
     position: relative;
-  }
+}
   .img-1{
     width: 100%;
   height: auto; 
   margin-bottom: 10px;
-  }
+}
   .img-2{
     width: 40%;
-  }
+}
 
   /* icon-grid-container */
 .icon-grid-container{
@@ -239,13 +249,13 @@ p{
     margin: 0 auto;
     padding: 100px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-  }
+}
   .grid-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-  }
+}
 .icon-grid img{
     display: flex;
     padding: 0px 5px;
@@ -268,11 +278,10 @@ p{
 }
 
 /* footer section styles */
-footer{
-    margin: 0 auto;
-}
+
 .footer-content{
     padding: 100px;
+    width: 70%;
     text-align: center;
 }
 .footer-container{
@@ -281,16 +290,19 @@ footer{
 }
 .logo{
     display: flex;
-    align-items: center;
-    text-align: center;
-    width: 100px;
+    width: 150px;
     color: white;
+    margin: 0 auto;
+}
+.logo-img{
+    display: flex;
 }
 .nav-bar {
     text-align: center;
 }
 .nav-bar > ul{
     display: flex;
+    margin: 50px auto;
 }
 .nav-bar > ul li{
     list-style: none;
