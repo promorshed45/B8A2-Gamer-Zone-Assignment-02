@@ -28,6 +28,14 @@
     }
 
     /* header container styles */
+    .header-section{
+        background-image: url(../images/header-banner.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-bottom: 50px;
+        position: relative;
+        margin: 0;
+    }
     .header-container {
         padding-top: 50px;
         display: flex;
@@ -42,6 +50,9 @@
 
     .header-title {
         font-size: 5rem;
+    }
+    .header-image-container img{
+        width: 100%;
     }
 
     /* anniversary container */
@@ -201,6 +212,17 @@
 
 
     /* header container styles */
+
+
+    .header-section{
+        background-image: url(../images/header-banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 50px;
+        position: relative;
+        margin: 0;
+    }
+
 
     .header-container {
         display: flex;
